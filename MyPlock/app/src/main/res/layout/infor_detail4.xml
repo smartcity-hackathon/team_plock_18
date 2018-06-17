@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e0e1e0"
+    android:padding="10dp">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="372dp"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="W płocku wybudowano nowe latarnie"
+        android:gravity="center"
+        android:textColor="#333"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="185dp"
+        android:layout_height="33dp"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:text="12:00 15-06-2018"
+        android:textSize="16sp"
+        android:textColor="#333"
+        android:gravity="center" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/infor4" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="303dp"
+        android:layout_height="235dp"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:textColor="#333"
+        android:gravity="center"
+        android:text="Urząd Miasta zrealizował projekt który polegał na zmianie niektórych starych i brzydkich lamp na nowę. Teraz stare miasto wygląda pięknie nocą.
+Zachęcamy do zabierania swoich drugich połówek na romantyczne spacery." />
+</RelativeLayout>

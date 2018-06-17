@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Formularz</title>
+  <link href="https://fonts.googleapis.com/css?family=Itim" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #ECEFF1;
+    }
+
+    .form {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+
+      width: 960px;
+      height: 100vh;
+
+      background-color: lightgreen;
+
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    h1 {
+      font-family: Itim;
+      text-align: center;
+      color: #9C27B0;
+    }
+
+    input[type=text] {
+      box-sizing: border-box;
+      position: relative;
+
+      text-align: center;
+
+      padding: 0 5px;
+      margin: 10px 0;
+
+      width: 300px;
+      height: 30px;
+
+      border: 1px solid #aaa;
+      border-radius: 5px;
+
+      outline: none;
+      transition: .7s;
+    }
+
+    input[type=text]:focus {
+      text-align: left;
+      border-color: #2196F3;
+    }
+
+    input[type=submit] {
+      width: 200px;
+      height: 40px;
+
+      margin-top: 10px;
+
+      background: linear-gradient(to top, #ff1744, #FF5252);
+      border: none;
+      border-radius: 2px;
+
+      color: white;
+
+      cursor: pointer;
+    }
+  </style>
+
+</head>
+<body>
+
+  <form action="addEvent.php" method="POST" class="form">
+
+    <h1>Halo!</h1>
+
+    <input type="text" name="name" placeholder="Name" />
+    <input type="text" name="description" placeholder="Description" />
+    <input type="text" name="fromDate" placeholder="Od kiedy" />
+    <input type="text" name="toDate" placeholder="Do kiedy" />
+    <input type="text" name="place" placeholder="Place" />
+    <input type="text" name="idCategory" placeholder="Id Kategorii" />
+
+    <input type="hidden" name="JSON" id="oneToRuleThemAll" />
+
+    <input type="submit" value="Lecimy z tym prosze!" />
+
+  </form>
+
+  <script>
+    var inputs = document.querySelectorAll('input[type=text]');
+    var form = document.querySelector('.form');
+    var oneAndOnly = document.querySelector('#oneToRuleThemAll');
+    var payload = {};
+
+    form.onsubmit = function(ev) {
+
+      for (var i = 0; i < inputs.length; i++) {
+        payload[inputs[i].name] = inputs[i].value;
+      }
+
+      oneAndOnly.value = JSON.stringify(payload);
+
+    };
+  </script>
+
+</body>
+</html>

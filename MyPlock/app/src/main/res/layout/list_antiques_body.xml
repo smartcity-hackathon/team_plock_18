@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/antique1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/shadow"
+        android:paddingBottom="10dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:paddingLeft="3dp"
+            app:srcCompat="@drawable/zamek_ksia" />
+
+        <TextView
+            android:layout_width="243dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="8dp"
+            android:text="Zamek książąt mazowieckich w Płocku"
+            android:textColor="#333" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/antique2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/antique1"
+        android:background="@drawable/shadow"
+        android:paddingBottom="10dp">
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:paddingLeft="3dp"
+            app:srcCompat="@drawable/bazylia_plock" />
+
+        <TextView
+            android:layout_width="243dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="8dp"
+            android:text="Bazylika katedralna Wniebowzięcia NMP w Płocku"
+            android:textColor="#333" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/antique3"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/antique2"
+        android:background="@drawable/shadow"
+        android:paddingBottom="10dp">
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:paddingLeft="3dp"
+            app:srcCompat="@drawable/muzeum_diecez" />
+
+        <TextView
+            android:layout_width="243dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="8dp"
+            android:text="Muzeum Diecezjalne im. bł. abpa. Antoniego Juliana Nowowiejskiego"
+            android:textColor="#333" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/antique4"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/antique3"
+        android:background="@drawable/shadow"
+        android:paddingBottom="10dp">
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:paddingLeft="3dp"
+            app:srcCompat="@drawable/dom_trabka" />
+
+        <TextView
+            android:layout_width="243dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="8dp"
+            android:text="Dom pod Trąbami w Płocku"
+            android:textColor="#333" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/antique5"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/antique4"
+        android:background="@drawable/shadow"
+        android:paddingBottom="10dp">
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:paddingLeft="3dp"
+            app:srcCompat="@drawable/bolek_krzywy" />
+
+        <TextView
+            android:layout_width="243dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="8dp"
+            android:text="Pomnik Bolesława Krzywoustego w Płocku"
+            android:textColor="#333" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/antique6"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/antique5"
+        android:background="@drawable/shadow"
+        android:paddingBottom="10dp">
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:paddingLeft="3dp"
+            app:srcCompat="@drawable/mala_synka_jedynego" />
+
+        <TextView
+            android:layout_width="243dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="8dp"
+            android:text="Mała Synagoga w Płocku"
+            android:textColor="#333" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

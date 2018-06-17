@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/InforOne"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/shadow"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageViewTitle1"
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="5dp"
+            app:srcCompat="@drawable/infor1" />
+
+        <TextView
+            android:layout_width="274dp"
+            android:layout_height="63dp"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/imageViewTitle1"
+            android:gravity="left"
+            android:paddingLeft="20dp"
+            android:paddingTop="5dp"
+            android:textColor="#333"
+            android:text="Coś pieknego się stało na mieście"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="184dp"
+            android:layout_height="32dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/imageViewTitle1"
+            android:gravity="left"
+            android:paddingLeft="25dp"
+            android:paddingTop="5dp"
+            android:text="8 godz. temu"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+    <Space
+        android:id="@+id/space1"
+        android:layout_below="@+id/InforOne"
+        android:layout_width="match_parent"
+        android:layout_height="4dp" />
+
+    <RelativeLayout
+        android:id="@+id/InforTwo"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/space1"
+        android:background="@drawable/shadow"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageViewTitle2"
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="5dp"
+            app:srcCompat="@drawable/infor2" />
+
+        <TextView
+            android:layout_width="274dp"
+            android:layout_height="63dp"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/imageViewTitle2"
+            android:gravity="left"
+            android:paddingLeft="20dp"
+            android:paddingTop="5dp"
+            android:text="Koncert w Płockiej zatoczce"
+            android:textColor="#333"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="184dp"
+            android:layout_height="32dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/imageViewTitle2"
+            android:gravity="left"
+            android:paddingLeft="25dp"
+            android:paddingTop="5dp"
+            android:text="12 godz. temu"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+    <Space
+        android:id="@+id/space2"
+        android:layout_below="@+id/InforTwo"
+        android:layout_width="match_parent"
+        android:layout_height="4dp" />
+
+    <RelativeLayout
+        android:id="@+id/InforThree"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/space2"
+        android:background="@drawable/shadow"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageViewTitle3"
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="5dp"
+            app:srcCompat="@drawable/infor3" />
+
+        <TextView
+            android:layout_width="274dp"
+            android:layout_height="63dp"
+            android:gravity="left"
+            android:paddingLeft="20dp"
+            android:textSize="16sp"
+            android:paddingTop="5dp"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/imageViewTitle3"
+            android:textColor="#333"
+            android:text="Orlen coraz bardziej zatruwa powietrze" />
+
+        <TextView
+            android:layout_width="184dp"
+            android:layout_height="32dp"
+            android:gravity="left"
+            android:paddingLeft="25dp"
+            android:textSize="14sp"
+            android:paddingTop="5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/imageViewTitle3"
+            android:text="18 godz. temu" />
+
+    </RelativeLayout>
+
+    <Space
+        android:id="@+id/space3"
+        android:layout_below="@+id/InforThree"
+        android:layout_width="match_parent"
+        android:layout_height="4dp" />
+
+    <RelativeLayout
+        android:id="@+id/InforFour"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/space3"
+        android:background="@drawable/shadow"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageViewTitle4"
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="5dp"
+            app:srcCompat="@drawable/infor4" />
+
+        <TextView
+            android:layout_width="274dp"
+            android:layout_height="63dp"
+            android:gravity="left"
+            android:paddingLeft="20dp"
+            android:textSize="16sp"
+            android:paddingTop="5dp"
+            android:layout_alignParentTop="true"
+            android:textColor="#333"
+            android:layout_toEndOf="@+id/imageViewTitle4"
+            android:text="W płocku wybudowano nowe latarnie" />
+
+        <TextView
+            android:layout_width="184dp"
+            android:layout_height="32dp"
+            android:gravity="left"
+            android:paddingLeft="25dp"
+            android:textSize="14sp"
+            android:paddingTop="5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/imageViewTitle4"
+            android:text="1 dzień temu" />
+
+    </RelativeLayout>
+
+    <Space
+        android:id="@+id/space4"
+        android:layout_below="@+id/InforFour"
+        android:layout_width="match_parent"
+        android:layout_height="4dp" />
+
+    <RelativeLayout
+        android:id="@+id/InforFive"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/space4"
+        android:background="@drawable/shadow"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageViewTitle5"
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="5dp"
+            app:srcCompat="@drawable/infor5" />
+
+        <TextView
+            android:layout_width="274dp"
+            android:layout_height="63dp"
+            android:gravity="left"
+            android:paddingLeft="20dp"
+            android:textSize="16sp"
+            android:paddingTop="5dp"
+            android:layout_alignParentTop="true"
+            android:textColor="#333"
+            android:layout_toEndOf="@+id/imageViewTitle5"
+            android:text="Nocą jest u nas pięknie" />
+
+        <TextView
+            android:layout_width="184dp"
+            android:layout_height="32dp"
+            android:gravity="left"
+            android:paddingLeft="25dp"
+            android:textSize="14sp"
+            android:paddingTop="5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/imageViewTitle5"
+            android:text="1 dzień temu" />
+
+    </RelativeLayout>
+
+    <Space
+        android:id="@+id/space5"
+        android:layout_below="@+id/InforFive"
+        android:layout_width="match_parent"
+        android:layout_height="4dp" />
+
+    <RelativeLayout
+        android:id="@+id/InforSix"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/space5"
+        android:background="@drawable/shadow"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageViewTitle6"
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="5dp"
+            app:srcCompat="@drawable/infor6" />
+
+        <TextView
+            android:layout_width="274dp"
+            android:layout_height="63dp"
+            android:gravity="left"
+            android:paddingLeft="20dp"
+            android:textSize="16sp"
+            android:paddingTop="5dp"
+            android:layout_alignParentTop="true"
+            android:textColor="#333"
+            android:layout_toEndOf="@+id/imageViewTitle6"
+            android:text="Wisła Płock znowu zaskakuje" />
+
+        <TextView
+            android:layout_width="184dp"
+            android:layout_height="32dp"
+            android:gravity="left"
+            android:paddingLeft="25dp"
+            android:textSize="14sp"
+            android:paddingTop="5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/imageViewTitle6"
+            android:text="2 dni temu" />
+
+    </RelativeLayout>
+
+    <Space
+        android:id="@+id/space6"
+        android:layout_below="@+id/InforSix"
+        android:layout_width="match_parent"
+        android:layout_height="4dp" />
+
+</RelativeLayout>

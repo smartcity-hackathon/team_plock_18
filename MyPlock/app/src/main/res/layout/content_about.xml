@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:orientation="vertical"
+    android:background="@drawable/aboutbg">
+    <!--tools:context=".About"-->
+    <!--tools:showIn="@layout/activity_about">-->
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Mój Płock"
+        android:textSize="30sp"
+        android:padding="15dp"
+        android:textColor="#333"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:text="Hackathon Płock 2018 Edycja II"
+        android:textColor="#333"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/multiAutoCompleteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="395dp"
+        android:gravity="center"
+        android:text="MójPłock to aplikacja społecznościowa skupiająca się na przekazywaniu informacji w szybki i łatwo dostępny sposób.
+Dzięki aplikacji można przeglądać wydarzenia w swojej okolicy, zgłosić uszkodzenie mienia, lub innych rzeczy do odpowiednich władz. W aplikacji można znaleźć również inne informacje od urzędu, bądź przejrzeć rozkład jazdy dla danego autobusu. Aplikacja posiada również informacje o ciekawych miejscach i zabytkach jakie występują na terenie Płocka."
+        android:textSize="16sp" />
+</LinearLayout>

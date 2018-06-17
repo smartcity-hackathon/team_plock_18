@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Moje konto"
+        android:id="@+id/userAccountBtn"
+        android:textColor="#FFFF"
+        android:background="#f46600"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:drawableStart="@drawable/user"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/addEvent"
+        android:text="Dodaj wydarzenie"
+        android:textColor="#FFFF"
+        android:background="#f46600"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:drawableStart="@drawable/plus"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/report_btn"
+        android:text="Zgłoś miastu"
+        android:background="#f46600"
+        android:textColor="#FFFF"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:drawableStart="@drawable/report"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rozkład jazdy"
+        android:background="#f46600"
+        android:textColor="#FFFF"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:drawableStart="@drawable/bus"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/atractionsBtn"
+        android:text="Atrkacje turystyczne"
+        android:background="#f46600"
+        android:textColor="#FFFF"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:drawableStart="@drawable/photo_camera"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/informator_btn"
+        android:text="Informator"
+        android:background="#f46600"
+        android:textColor="#FFFF"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:drawableStart="@drawable/information"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/about_btn"
+        android:text="O aplikacji"
+        android:background="#f46600"
+        android:textColor="#FFFF"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:drawableStart="@drawable/info"/>
+
+</LinearLayout>

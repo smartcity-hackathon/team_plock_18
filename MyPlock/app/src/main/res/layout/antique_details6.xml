@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AntiqueDetails6"
+    android:padding="10dp"
+    android:background="#e0e1e0">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="374dp"
+        android:layout_height="42dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:textColor="#333"
+        android:text="Mała Synagoga w Płocku" />
+
+    <TextView
+        android:id="@+id/place"
+        android:layout_width="229dp"
+        android:layout_height="54dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/title"
+        android:textColor="#333"
+        android:gravity="center"
+        android:text="Józefa Kwiatka 7" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+        android:layout_below="@+id/place"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/mala_synka_jedynego" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="374dp"
+        android:layout_height="211dp"
+        android:layout_alignStart="@+id/title"
+        android:layout_below="@+id/image"
+        android:gravity="center"
+        android:textColor="#333"
+        android:text="Mała Synagoga w Płocku – synagoga znajdująca się w Płocku przy ulicy Józefa Kwiatka 7. Jest obecnie jedyną zachowaną wolno stojącą synagogą w dawnym województwie płockim." />
+</RelativeLayout>

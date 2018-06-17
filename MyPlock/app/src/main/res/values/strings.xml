@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Mój Płock</string>
+    <string name="title_home">Lista</string>
+    <string name="title_dashboard">Mapa</string>
+    <string name="title_notifications">Inne</string>
+    <string name="main_color">#f46600</string>
+    <string name="title_activity_about">O aplikacji</string>
+    <string name="about_title">Mój Płock \n </string>
+    <string name="about_desc">Wersja 1.0.0 \n\n\nAplikacja zrobiona podczas hackathonu City Coders Płock 2018.</string>
+    <string name="title_activity_report">Zgłoś</string>
+    <string name="firstEventTitle">Otwarcie siłowni TooStrong</string>
+    <string name="firstEventDescription">Serdecznie zapraszawy na otwarcie nowej Siłowni na ul. Tumskiej 3.
+        Dla każdego klienta koszulka oraz kubek! Dodatkowo zniżka na karnet aż 50%. Nie czekaj, przyjdź do nas!</string>
+</resources>
