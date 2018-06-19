@@ -1,5 +1,9 @@
-# MÛjP≥ock
+# M√≥jP≈Çock
 
-P≥ock to bardzo øywe miasto, ktÛre stawia na nowoczesnoúÊ i kontakt z mieszkaÒcami. 
-Jednak mimo wszystko, kana≥Ûw komunikacji z Ñmiastemî jest za duøo i sπ zbyt rozproszone.
-Nasza aplikacja pozwala na rozwiπzanie tego problemu.
+P≈Çock to bardzo ≈ºywe miasto, kt√≥re stawia na nowoczesno≈õƒá i kontakt z mieszka≈Ñcami. 
+Jednak mimo wszystko, kana≈Ç√≥w komunikacji z ‚Äûmiastem‚Äù jest za du≈ºo i sƒÖ zbyt rozproszone.
+Nasza aplikacja pozwala na rozwiƒÖzanie tego problemu.
+
+![Img1](photo_2018-06-19_10-31-04.jpg)
+![Img2](photo_2018-06-19_10-31-16.jpg)
+![Img3](photo_2018-06-19_10-31-13.jpg)
